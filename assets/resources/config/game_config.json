@@ -1,0 +1,79 @@
+{
+  "levelMax": 180,
+  "stageLevel": [
+    20,
+    30,
+    35,
+    40,
+    45,
+    50
+  ],
+  "maxGameTime": 180.0,
+  "addTimeOnMatch": 3.0,
+  "tableSlots": 7,
+  "cellSize": 120,
+  "moveTime": 0.4,
+  "starUpCoin": [
+    400,
+    1200,
+    2400,
+    4000,
+    6000,
+    84000
+  ],
+  "starExp": [
+    20,
+    60,
+    140,
+    300,
+    540,
+    860
+  ],
+  "starUpGetCoin": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12
+  ],
+  "skinBuyCoin": [
+    1000,
+    1500,
+    2000,
+    2500,
+    3000
+  ],
+  "itemBuyCoin": [
+    80,
+    150,
+    100,
+    400
+  ],
+  "revivalCoin": 300,
+  "defaultCoin": 100,
+  "skinCount": 6,
+  "blockCount": 21,
+  "itemCount": 3,
+  "tileType": {
+    "0": "normal",
+    "1": "hide",
+    "2": "ice",
+    "3": "fire",
+    "4": "water",
+    "5": "stone",
+    "6": "hammer"
+  },
+  "itemNames": [
+    "back",
+    "match",
+    "reset",
+    "addSlot"
+  ],
+  "modes": [
+    "easy",
+    "normal",
+    "hard"
+  ]
+}

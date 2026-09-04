@@ -1,0 +1,122 @@
+Lang Code	en	tw	cn
+^loading	Loading…	載入中…	载入中…
+^startGame	Start Game	進入遊戲	进入游戏
+^skin	Skin	皮膚	皮肤
+^starUp	Star Up	升星	升星
+^setting	Setting	設置	设置
+^gameHelp	Game Help	遊戲玩法	游戏玩法
+^language	Language	語系	语系
+^pause	Pause	暫停	暂停
+^backToMap	Back To Map	回地圖	回地图
+^replay	Replay	重新開始	重新开始
+^tileStarUp	Tile Star Up	方塊升星	方块升星
+^starUp_skill0	Match To Get 1 Coins	配對獲得 1 金幣	配对获得 1 金币
+^starUp_skill1	Match To Get 2 Coins	配對獲得 2 金幣	配对获得 2 金币
+^starUp_skill2	Match To Get 4 Coins	配對獲得 4 金幣	配对获得 4 金币
+^starUp_skill3	Match To Get 6 Coins	配對獲得 6 金幣	配对获得 6 金币
+^starUp_skill4	Match To Get 8 Coins	配對獲得 8 金幣	配对获得 8 金币
+^starUp_skill5	Match To Get 10 Coins	配對獲得 10 金幣	配对获得 10 金币
+^starUp_skill6	Match To Get 12 Coins	配對獲得 12 金幣	配对获得 12 金币
+^bonusUp_skill0	Match To Get 20 Coins	配對獲得 20 金幣	配对获得 20 金币
+^bonusUp_skill1	Match To Get 25 Coins	配對獲得 25 金幣	配对获得 25 金币
+^bonusUp_skill2	Match To Get 30 Coins	配對獲得 30 金幣	配对获得 30 金币
+^bonusUp_skill3	Match To Get 35 Coins	配對獲得 35 金幣	配对获得 35 金币
+^bonusUp_skill4	Match To Get 40 Coins	配對獲得 40 金幣	配对获得 40 金币
+^bonusUp_skill5	Match To Get 45 Coins	配對獲得 45 金幣	配对获得 45 金币
+^bonusUp_skill6	Match To Get 50 Coins	配對獲得 50 金幣	配对获得 50 金币
+^starUp_help	Match tiles to get experience	配對方塊可提升經驗	配对方块可提升经验
+^skin_help	Change background and tile symbol	變更背景與方塊圖案	变更背景与方块图案
+^completeLevel	Complete Level	完成關卡	完成关卡
+^buy_skin	Buy Skin	購買皮膚	购买皮肤
+^level	Level	關卡	关卡
+^level1	Level	第	第
+^level2		關	关
+^play	Play	馬上玩	马上玩
+^receivedSlot	Received +1 Slot	已獲得+1格子	已获得+1格子
+^slot	Slot	格子	格子
+^slotPlay	Slot Play	格子遊玩	格子游玩
+^help_page0	Collect three tiles of the same symbol\nto the collection area to match the tiles	蒐集三個相同圖像的方塊\n到收集框上可匹配方塊	搜集三个相同图像的方块\n到收集框上可匹配方块
+^help_page1	Return to the previous tile	撤回上一步的方塊	撤回上一步的方块
+^help_page2	Auto match a set of tiles	自動匹配一組方塊	自动匹配一组方块
+^help_page3	Reorganize all symbols on the scene	重整場上所有方塊圖像	重整场上所有方块图像
+^help_page4	Add a slot	增加一個格子	增加一个格子
+^help_page5	Click to see the ad to receive rewards\n(Randomly get 1~2 kinds of rewards)	點擊可看廣告領取獎勵\n(隨機獲得1~2種獎勵)	点击可看广告领取奖励\n(随机获得1~2种奖励)
+^buyItems	Buy Items	購買道具	购买道具
+^buyItems_help0	【Back 1 Step】	【回退一步】	【回退一步】
+^buyItems_help1	【Auto Match】	【自動匹配】	【自动匹配】
+^buyItems_help2	【Reset Tiles】	【重整方塊】	【重整方块】
+^type1	Cover Tile	蓋牌方塊	盖牌方块
+^type2	Ice Tile	冰凍方塊	冰冻方块
+^type3	Fire Tile	火焰方塊	火焰方块
+^type4	Rock Tile	石頭方塊	石头方块
+^type1_help	Tap to show the tile	點擊可顯示方塊	点击可显示方块
+^type2_help	Ice tile can't tap\nRemove surrounding tile to remove the ice	冰凍方塊無法點擊\n消除周圍的方塊可解除冰塊	冰冻方块无法点击\n消除周围的方块可解除冰块
+^type3_help	Fire tile can't tap\nTap water tile to extinguished the fire	火焰方塊無法點擊\n點擊水滴方塊可澆滅火焰	火焰方块无法点击\n点击水滴方块可浇灭火焰
+^type4_help	Rock tile can't tap\nTap hammer tile*3 to remove the rock tile	石頭方塊無法點擊\n點擊鐵鎚方塊*3，可消滅石頭方塊	石头方块无法点击\n点击铁锤方块*3，可消灭石头方块
+^get	Get	領取	领取
+^buy	Buy	購買	购买
+^addSlot	Add Slot	增加格子	增加格子
+^or	OR	或	或
+^bonusCoin	Bonus Coin	獎金	奖金
+^batterCoin	Batter Coin	連擊金	连击金
+^coin	Coin	金幣	金币
+^received	Received	已領取	已领取
+^nextLevel	Next	下一關	下一关
+^revival	Revival	復活	复活
+^failed_help	Back 4 Steps + Reset Symbol	回退4步+重整圖案	回退4步+重整图案
+^confirm	Confirm	確認	确认
+^backStep	Back 1 Step	回退一步	回退一步
+^matchtile	Match Tile	匹配方塊	匹配方块
+^resetSymbol	Reset Symbol	重整圖像	重整图像
+^adTreasureChest	Ad Treasure Chest	廣告寶箱	广告宝箱
+^enable	Enable	啟用	启用
+^highest	Highest	最高	最高
+^comingSoon	Coming Soon	敬請期待	敬请期待
+^complete	Complete	完成	完成
+^removeAd	Remove AD	移除廣告	移除广告
+^removeAdHelp	remove interstitial\n(Rewarded ads will remain)	移除插頁式廣告\n(獎勵廣告會保留)	移除插页式广告\n(奖励广告会保留)
+^buyCoins	Buy Coins	購買金幣	购买金币
+^tip1	Insufficient Coins	金幣不足	金币不足
+^tip2	No tiles to return	無方塊可撤回	无方块可撤回
+^tip3	Get【Back 1 Step】Item	獲得【回退一步】道具	获得【回退一步】道具
+^tip4	Get【Auto Match】Item	獲得【自動匹配】道具	获得【自动匹配】道具
+^tip5	Get【Reset Symbol】Item	獲得【重整圖像】道具	获得【重整图像】道具
+^tip6	Open a new slot	開啟一個新格子	开启一个新格子
+^tip7	Get Coins	獲得金幣	获得金币
+^tip8	Get New Skin	獲得新皮膚!	获得新皮肤!
+^tip9	tiles Star Up Success!	方塊升星成功!	方块升星成功!
+^getCoins	Get Coins	獲得金幣	获得金币
+^getCoinsHelp	Watch ads to get\nRandom 300~500 gold coins	觀看廣告可獲得\n隨機300~500的金幣	观看广告可获得\n随机300~500的金币
+^tipAds1	Ad failed to load	廣告加載失敗	广告加载失败
+^tipAds2	Rewarded Interstitial failed to present.	獎勵插頁式廣告未能呈現	广告加载失败，请在试一次
+^tipAds3	Rewarded Interstitial dismissed.	已取消獎勵插頁式廣告	已取消奖励插页式广告
+^easy	Easy	簡單	简单
+^normal	Normal	普通	普通
+^hard	Hard	困難	困难
+^(easy)	(Easy)	(簡單)	(简单)
+^(normal)	(Normal)	(普通)	(普通)
+^(hard)	(Hard)	(困難)	(困难)
+^easyStar	Easy 3 Star	簡單3星	简单3星
+^normalStar	Normal 3 Star	普通3星	普通3星
+^modeBonus	Mode Bonus	模式獎勵	模式奖励
+^typeTipEasy	Easy	簡單	简单
+^typeTipNormal	Normal (Coins +50%)	普通 (金幣+50%)	普通 (金币+50%)
+^typeTipHard	Hard (Coins +100%)	困難 (金幣+100%)	困难 (金币+100%)
+^getNew	Enable new feature	開啟新功能	请匹配所有方块
+^itemBackHelp	【Back 1 Step】Item	【回退一步】道具	【回退一步】道具
+^itemMatchHelp	【Auto Match】Item	【自動匹配】道具	【自动匹配】道具
+^itemResetHelp	【Reset Symbol】Item	【重整方塊】道具	【重整方块】道具
+^itemTreasureHelp	【Ad Treasure Chest】Feature	【廣告寶箱】功能	【广告宝箱】功能
+^boxHideHelp	Enable【Cover Tile】	啟用【蓋牌方塊】	启用【盖牌方块】
+^boxIceHelp	Enable【Ice Tile】	啟用【冰凍方塊】	启用【冰冻方块】
+^getStarUpHelp	Upgrade tile stars\nIncrease match tile bonus	可升級方塊星數\n提高匹配方塊的獎金	可升级方块星数\n提高匹配方块的奖金
+^boxFireHelp	Enable【Fire Tile】\n【Water Tile】	啟用【火焰方塊】\n【水滴方塊】	启用【火焰方块】\n【水滴方块】
+^getSkinHelp	Buy new skins\nChange tile symbol and background	可購買新皮膚\n更換方塊圖案與背景圖	可购买新皮肤\n更换方块图案与背景图
+^skin1Help	【Animal Skin】\nYou can buy it on the skins page	【動物皮膚】\n可至皮膚頁面購買	【动物皮肤】\n可至皮肤页面购买
+^boxStoneHelp	Enable【Rock Tile】\n【Hammer Tile】	啟用【石頭方塊】\n【鐵鎚方塊】	启用【石头方块】\n【铁锤方块】
+^modeNormalHelp	【Normal Mode】Stage\nClear Gold Coins +50%	【普通模式】關卡\n通關金幣+50%	【普通模式】关卡\n通关金币+50%
+^skin2Help	【Food Skin】\nYou can buy it on the skins page	【食物皮膚】\n可至皮膚頁面購買	【食物皮肤】\n可至皮肤页面购买
+^skin3Help	【Sea Creature Skin】\nYou can buy it on the skins page	【海洋生物皮膚】\n可至皮膚頁面購買	【海洋生物皮肤】\n可至皮肤页面购买
+^modeHardHelp	【Hard Mode】Stage\nClear Gold Coins +100%	【困難模式】關卡\n通關金幣+100%	【困难模式】关卡\n通关金币+100%
+^skin4Help	【Bird Skin】\nYou can buy it on the skins page	【鳥類皮膚】\n可至皮膚頁面購買	【鸟类皮肤】\n可至皮肤页面购买
+^skin5Help	【Flower Skin】\nYou can buy it on the skins page	【花朵皮膚】\n可至皮膚頁面購買	【花朵皮肤】\n可至皮肤页面购买

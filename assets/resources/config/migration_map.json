@@ -1,0 +1,108 @@
+{
+  "unityToCocos": [
+    {
+      "unity": "MatchExpertMain.cs",
+      "cocos": "scripts/core/GameApp.ts",
+      "note": "主流程/視圖切換"
+    },
+    {
+      "unity": "MatchExpertGame.cs",
+      "cocos": "scripts/game/MatchGame.ts",
+      "note": "對局核心"
+    },
+    {
+      "unity": "MatchExpertSymbol.cs",
+      "cocos": "scripts/game/TileSymbol.ts",
+      "note": "方塊與遮擋"
+    },
+    {
+      "unity": "MatchExpertSaveData.cs",
+      "cocos": "scripts/core/SaveData.ts",
+      "note": "localStorage"
+    },
+    {
+      "unity": "MatchExpertLevelMap.cs",
+      "cocos": "scripts/ui/LevelMapView.ts",
+      "note": "關卡地圖"
+    },
+    {
+      "unity": "MatchExpertLevel.cs",
+      "cocos": "scripts/ui/LevelPop.ts",
+      "note": "關卡彈窗"
+    },
+    {
+      "unity": "MatchExpertLoading.cs",
+      "cocos": "scripts/ui/LoadingView.ts",
+      "note": "載入頁"
+    },
+    {
+      "unity": "GameBatter.cs",
+      "cocos": "scripts/game/ComboBatter.ts",
+      "note": "連擊"
+    },
+    {
+      "unity": "gameLevelData.cs",
+      "cocos": "resources/levels/*.json",
+      "note": "已匯出"
+    },
+    {
+      "unity": "MatchExpertSkinData.cs",
+      "cocos": "scripts/data/SkinCatalog.ts",
+      "note": "皮膚圖集"
+    },
+    {
+      "unity": "popWindows/*",
+      "cocos": "scripts/ui/pops/*",
+      "note": "各彈窗"
+    },
+    {
+      "unity": "unityAds/*",
+      "cocos": "scripts/core/AdsService.ts",
+      "note": "後置 stub"
+    },
+    {
+      "unity": "DOTween",
+      "cocos": "cc.tween",
+      "note": "動畫"
+    },
+    {
+      "unity": "Easy Save 3",
+      "cocos": "sys.localStorage",
+      "note": "存檔"
+    },
+    {
+      "unity": "BtnScaleAnim.cs",
+      "cocos": "scripts/ui/BtnScaleAnim.ts",
+      "note": "按鈕縮放"
+    }
+  ],
+  "assetFolders": {
+    "textures/bg": "背景圖",
+    "textures/ui": "介面圖",
+    "textures/skin": "皮膚與方塊圖案",
+    "textures/fx": "特效圖",
+    "textures/mockup": "參考 mockup",
+    "audio/bgm": "背景音樂",
+    "audio/sfx": "音效",
+    "fonts": "字型",
+    "i18n": "原始多語系表",
+    "resources/levels": "180x3 關卡資料",
+    "resources/config": "設定與 i18n JSON"
+  },
+  "skipped": [
+    "UI/old (舊資源)",
+    "Unity .anim/.controller/.mat/.shader",
+    "Package/Easy Save/DOTween/AllIn1SpriteShader",
+    "Plugins/NativeShare (後置)",
+    "ScreenShooter 編輯器工具",
+    "關卡編輯器 creatLevel*.cs (開發工具)"
+  ],
+  "phaseStatus": {
+    "0_inventory": "done",
+    "1_assets": "done",
+    "1_levels": "done",
+    "2_skeleton": "done",
+    "3_core_mvp": "partial_board_spawn",
+    "4_specials": "pending"
+  }
+}
