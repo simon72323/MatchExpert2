@@ -1,0 +1,34 @@
+{
+  "ads": {
+    "provider": "unity",
+    "testMode": true,
+    "useStubInPreview": true,
+    "stubDelaySec": 0.8,
+    "stubAlwaysSucceed": true,
+    "androidGameId": "YOUR_UNITY_ANDROID_GAME_ID",
+    "iosGameId": "YOUR_UNITY_IOS_GAME_ID",
+    "rewardedAndroid": "Rewarded_Android",
+    "rewardedIos": "Rewarded_iOS",
+    "interstitialAndroid": "Interstitial_Android",
+    "interstitialIos": "Interstitial_iOS",
+    "interstitialEveryNWins": 2,
+    "interstitialEnabled": true
+  },
+  "iap": {
+    "useStubInPreview": true,
+    "stubDelaySec": 0.6,
+    "products": {
+      "remove_ads": {
+        "androidSku": "remove_ads",
+        "iosSku": "remove_ads",
+        "displayPrice": "$2.99",
+        "nonConsumable": true
+      }
+    }
+  },
+  "share": {
+    "title": "Match Expert",
+    "url": "https://example.com/match-expert",
+    "hashtag": "#MatchExpert"
+  }
+}

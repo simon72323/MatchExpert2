@@ -8,6 +8,7 @@ export interface SaveState {
     level: number;
     levelStar: number[];
     levelModeUnLock: number[];
+    /** 舊存檔相容欄位；升星玩法已移除，不再讀寫。 */
     blockStar: number[];
     blockEliminate: number[];
     selectSkin: number;
@@ -32,7 +33,7 @@ function createDefault(): SaveState {
         blockEliminate: new Array(GameConfig.blockCount).fill(0),
         selectSkin: 0,
         buySkin: [true, false, false, false, false, false],
-        itemAmount: [0, 0, 0],
+        itemAmount: [2, 2, 2],
         treasureStar: 0,
         helpState: [false, false, false, false, false],
         sound: true,
@@ -66,6 +67,9 @@ export class SaveData {
                 this.data.buySkin[0] = true;
                 this.data.itemAmount = this.ensureArray(this.data.itemAmount, GameConfig.itemCount, 0);
                 this.data.helpState = this.ensureArray(this.data.helpState, 5, false);
+                // 語系碼正規化：S5G 暫時碼 → tw/cn/en
+                const langMap: Record<string, string> = { tch: 'tw', sch: 'cn', eng: 'en' };
+                if (langMap[this.data.lang]) this.data.lang = langMap[this.data.lang];
             } else {
                 this.data = createDefault();
                 this.save();
@@ -106,11 +110,6 @@ export class SaveData {
         this.save();
     }
 
-    saveBlockStar(id: number): void {
-        this.data.blockStar[id] += 1;
-        this.save();
-    }
-
     saveBlockEliminate(id: number, n: number): void {
         this.data.blockEliminate[id] += n;
         this.save();
@@ -148,6 +147,11 @@ export class SaveData {
 
     saveLang(lang: string): void {
         this.data.lang = lang;
+        this.save();
+    }
+
+    saveAdsClose(on: boolean): void {
+        this.data.adsClose = on;
         this.save();
     }
 
